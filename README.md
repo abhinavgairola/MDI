@@ -39,3 +39,20 @@ The notebook starts with setting up the SQLite connection and creating a databas
 Finally, the notebook utilizes pandas and matplotlib libraries to visualize the query results in the form of tables and charts, providing a comprehensive view of the data.
 
 This notebook serves as a reference for `SQL` operations in `Python` using `SQLite` and can be a helpful resource for data analysts and developers working with relational databases.
+
+
+
+## Run
+
+To run the code in this repository, follow the instructions below:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/abhinavgairola/MDI.git
+   cd MDI
+   pip install -r requirements.txt
+
+2. Run the notebook `SQLSample.ipynb`
+
+
+
