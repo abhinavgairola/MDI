@@ -38,7 +38,7 @@ To run the notebook, you need the following dependencies:
 - Required Python libraries (specified in the `requirements.txt` file)
 
 Please ensure that you have the necessary dependencies installed before running the notebook.
-
+# Conclusion
 <div style="background-color: white; padding: 10px;">
 <span style="color:blue; font-weight:bold">Based on the analysis of the World Happiness Survey and Global Temperature data, we can draw the following conclusion:</span>
 
