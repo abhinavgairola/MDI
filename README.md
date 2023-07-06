@@ -54,5 +54,9 @@ To run the code in this repository, follow the instructions below:
 
 2. Run the notebook `SQLSample.ipynb`
 
+**⚠️ Important Notice:**
+Please be aware that the provided URL [here](https://data.cms.gov/provider-data/sites/default/files/resources/69a75aa9d3dc1aed6b881725cf0ddc12_1687478722/DAC_NationalDownloadableFile.csv) leads to an external website to download the `.csv` file on which the analysis was performed. Please update the link if you run into issues by visiting the [following](https://data.cms.gov/provider-data/dataset/mj5m-pzi6)
+
+
 
 
