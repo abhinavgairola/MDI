@@ -39,8 +39,16 @@ To run the notebook, you need the following dependencies:
 
 Please ensure that you have the necessary dependencies installed before running the notebook.
 
-## Contribution
+<div style="background-color: white; padding: 10px;">
+<span style="color:blue; font-weight:bold">Based on the analysis of the World Happiness Survey and Global Temperature data, we can draw the following conclusion:</span>
 
-Contributions to this repository are welcome. If you have any suggestions, improvements, or additional analysis related to the World Happiness Survey and Global Temperature, feel free to submit a pull request.
+<span style="color:black">The analysis reveals a strong positive correlation between happiness scores and various factors such as GDP per capita, social support, healthy life expectancy, freedom to make life choices, and perceptions of corruption. Countries with higher values in these factors tend to have higher happiness scores.</span>
+
+<span style="color:black">Furthermore, incorporating the global temperature data into the analysis provides insights into the relationship between temperature and happiness. The analysis shows that countries with moderate temperature ranges tend to have higher happiness scores, indicating a potential link between climate and happiness.</span>
+
+<span style="color:black">It is important to note that the analysis is based on observational data, and causation cannot be established directly. However, the findings highlight the importance of factors like socioeconomic conditions and climate in influencing happiness levels.</span>
+
+<span style="color:black">This analysis can be valuable for policymakers, researchers, and individuals interested in understanding the factors that contribute to happiness and the potential impact of global temperature on well-being. Further research and exploration in this area can provide more in-depth insights and contribute to creating happier and more sustainable societies.</span>
+</div>
 
 
