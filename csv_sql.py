@@ -32,7 +32,6 @@ class CSVtoSQL:
         result_table = csv_data.execute_and_format(conn, 'SELECT * FROM my_table')
         print(result_table)
     """
-
     @staticmethod
     def csv_sniffer(csv_file):
         """
@@ -45,18 +44,24 @@ class CSVtoSQL:
             tuple: A tuple containing the delimiter, headers, and inferred column data types.
         """
 
-        with open(csv_file, "r") as file:
-            sample_data = file.read(1024)  
-            dialect = csv.Sniffer().sniff(sample_data)
-            delimiter = dialect.delimiter
+        with open(csv_file, "r", encoding="utf-8") as file:
+            sample_data = file.read(1024)
+            try:
+                dialect = csv.Sniffer().sniff(sample_data)
+                delimiter = dialect.delimiter
+            except csv.Error:
+                delimiter = ','  # Use comma as default delimiter
 
-            file.seek(0) 
+            file.seek(0)
             csv_reader = csv.reader(file, delimiter=delimiter)
             headers = next(csv_reader)
             sample_row = next(csv_reader)
             column_data_types = [type(cell).__name__ for cell in sample_row]
 
-            return delimiter, headers, column_data_types
+        return delimiter, headers, column_data_types
+
+
+
 
     @staticmethod
     def write_csv_to_sql(delimiter, head, col_type, tab_name, csv_file="name",encoding="utf-8"):
