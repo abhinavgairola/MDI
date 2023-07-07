@@ -23,10 +23,10 @@ The class provides a convenient and efficient way to handle CSV data and leverag
 Here's an example of how to use the `CSVtoSQL` class:
 
 ```python
-csv_data = CSVtoSQL()
-delimiter, headers, column_data_types = csv_data.csv_sniffer('data.csv')
-conn, cursor = csv_data.write_csv_to_sql(delimiter, headers, column_data_types, 'my_table', 'data.csv')
-result_table, rows = csv_data.execute_and_format(conn, 'SELECT * FROM my_table')
+from csv_sql import CSVtoSQL as cs
+delimiter, headers, column_data_types = cs.csv_sniffer('data.csv')
+conn, cursor = cs.write_csv_to_sql(delimiter, headers, column_data_types, 'my_table', 'data.csv')
+result_table, rows = cs.execute_and_format(conn, 'SELECT * FROM my_table')
 print(result_table)
 print(rows)
 ```
