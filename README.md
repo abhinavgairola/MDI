@@ -25,7 +25,7 @@ The Jupyter Notebook included in this repository covers the following analysis s
 To run the analysis, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Open the Jupyter Notebook (`World_Happiness_Temperature.ipynb`) using Jupyter Notebook or Jupyter Lab.
+2. Open the Jupyter Notebook (`World_Happiness_Survey.ipynb`) using Jupyter Notebook or Jupyter Lab.
 3. Execute the notebook cells sequentially to load the data, preprocess it, perform analysis, and generate visualizations.
 4. Review the analysis results, findings, and insights presented in the notebook.
 
